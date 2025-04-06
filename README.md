@@ -1,4 +1,4 @@
-# YourTube 🧠🎬  
+# YourTube 
 **구독 중인 유튜브 영상들을 사용자의 기준에 따라 분류·탐색할 수 있는 크롬 확장 프로그램 + 백엔드 서비스**
 
 <div align="center">
@@ -46,8 +46,6 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 ## 🧭 시스템 아키텍처
 
-<img src="" alt="YourTube Architecture" width="80%" />
-
 - `YouTube API`: 사용자의 구독 채널 및 영상 정보 수집
 - `BERT`: 기본 카테고리 분류 (Multi-label classification)
 - `Sentence Transformer`: 사용자 정의 세부 카테고리 분류
@@ -58,8 +56,6 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 ---
 
 ## ⚙️ 주요 기능 시연
-
-<img src="" alt="YourTube Test" width="80%" />
 
 - 구독 영상 최신 목록 불러오기
 - 카테고리 및 세부 기준으로 분류
@@ -72,8 +68,6 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 | 이슈 | 해결 방법 |
 |------|-----------|
 | OAuth 인증 오류 |  |
-
-전체 디버깅 기록 보기 👉 [docs/debugging-log.md](./docs/debugging-log.md)
 
 ---
 
