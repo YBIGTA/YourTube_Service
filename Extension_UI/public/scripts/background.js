@@ -8,7 +8,7 @@
 // 매일 두번 (임시) 아침 8시, 밤 12시 alarm 기능으로 API 가져와서 자동 ML 업데이트 진행
 // 1) 알림 관리
 // 2) API 호출 및 데이터 동기화
-//3) 강력 새로고침
+// 3) 강력 새로고침
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "forceReload") {
@@ -77,7 +77,7 @@ const authenticateAndFetchVideos = () => {
             }
             if (response.status === 429) {
                 console.warn("⚠️ 너무 많은 요청 (429). 10초 후 재시도...");
-                setTimeout(authenticateAndFetchVideos, 10000); // 10초 후 재시도
+                setTimeout(authenticateAndFetchVideos, 1000); // 1초 후 재시도
                 return;
             }
             return response.json();
