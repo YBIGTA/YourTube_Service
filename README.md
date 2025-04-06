@@ -16,6 +16,15 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 ---
 
 ## 🎯 문제 정의
+**프로그램 실행 전**
+<img src="docs/images/before.png" alt="YourTube before" width="80%" />
+
+**프로그램 실행 후**
+<img src="docs/images/after.png" alt="YourTube after" width="80%" />
+
+**카테고리 분류 후**
+<img src="docs/images/after_categorizing.png" alt="YourTube after categorizing" width="80%" />
+
 
 - 사용자가 구독 중인 채널 수가 많아질수록 영상 탐색의 효율이 떨어짐
 - YouTube 기본 카테고리 분류만으로는 개인화된 탐색이 어려움
@@ -45,6 +54,7 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 ---
 
 ## 🧭 시스템 아키텍처
+<img src="docs/images/architecture.png" alt="YourTube Architecture" width="80%" />
 
 - `YouTube API`: 사용자의 구독 채널 및 영상 정보 수집
 - `BERT`: 기본 카테고리 분류 (Multi-label classification)
@@ -55,7 +65,7 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 ---
 
-## ⚙️ 서비스 주요 기능 시연
+## ⚙️ 서비스 주요 기능
 
 - 구독 영상 최신 목록 불러오기
 - 카테고리 및 세부 기준으로 분류
@@ -65,9 +75,7 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 ## 🛠️ 문제 해결 및 디버깅 사례
 
-| 이슈 | 해결 방법 |
-|------|-----------|
-| OAuth 인증 오류 |  |
+디버깅 기록 보기 👉 [docs/debugging-log.md](./docs/debugging-log.md)
 
 ---
 
