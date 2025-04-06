@@ -17,12 +17,15 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 ## 🎯 문제 정의
 **프로그램 실행 전**
+
 <img src="docs/images/before.png" alt="YourTube before" width="80%" />
 
 **프로그램 실행 후**
+
 <img src="docs/images/after.png" alt="YourTube after" width="80%" />
 
 **카테고리 분류 후**
+
 <img src="docs/images/after_categorizing.png" alt="YourTube after categorizing" width="80%" />
 
 
