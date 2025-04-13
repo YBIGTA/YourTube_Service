@@ -24,10 +24,11 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 <img src="docs/images/after.png" alt="YourTube after" width="80%" />
 
+<img src="docs/images/after2.png" alt="YourTube Popup" width="80%" />
+
 **카테고리 분류 후**
 
 <img src="docs/images/after_categorizing.png" alt="YourTube after categorizing" width="80%" />
-
 
 - 사용자가 구독 중인 채널 수가 많아질수록 영상 탐색의 효율이 떨어짐
 - YouTube 기본 카테고리 분류만으로는 개인화된 탐색이 어려움
