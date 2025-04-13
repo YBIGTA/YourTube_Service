@@ -30,6 +30,8 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 <img src="docs/images/after_categorizing.png" alt="YourTube after categorizing" width="80%" />
 
+![Image](https://github.com/user-attachments/assets/4dd33323-e8d8-462d-91d4-0cf6fa4ae9ce)
+
 - 사용자가 구독 중인 채널 수가 많아질수록 영상 탐색의 효율이 떨어짐
 - YouTube 기본 카테고리 분류만으로는 개인화된 탐색이 어려움
 - 이를 해결하기 위한 **사용자 주도형 영상 분류 시스템**이 필요함
