@@ -5,6 +5,10 @@
   <img src="docs/images/yourtube_title.png" alt="YourTube Title Logo" width="80%" />
 </div>
 
+<a href="https://yourtube.my" target="_blank">랜딩 페이지 바로가기</a>
+
+*비용 문제로 인해 서버가 닫혀 있을 수 있음을 양해 부탁드립니다.
+
 ---
 
 ## 📌 프로젝트 소개
@@ -30,7 +34,7 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 <img src="docs/images/after_categorizing.png" alt="YourTube after categorizing" width="80%" />
 
-![Image](https://github.com/user-attachments/assets/4dd33323-e8d8-462d-91d4-0cf6fa4ae9ce)
+<img src="https://github.com/user-attachments/assets/4dd33323-e8d8-462d-91d4-0cf6fa4ae9ce" width="80%" />
 
 - 사용자가 구독 중인 채널 수가 많아질수록 영상 탐색의 효율이 떨어짐
 - YouTube 기본 카테고리 분류만으로는 개인화된 탐색이 어려움
@@ -50,32 +54,32 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 ## 🛠 기술 스택
 
-| 영역 | 기술 |
-|------|------|
-| Backend | Flask, OAuth 2.0, YouTube API |
-| Frontend | JavaScript, HTML, Chrome Extension |
-| Modeling | BERT (Multilingual), Sentence Transformers, OpenAI GPT-4o |
-| Infra | AWS EC2, Route 53 |
+| 영역 | 기술                                                                     |
+|------|------------------------------------------------------------------------|
+| Backend | Flask, OAuth 2.0, YouTube Data API                                     |
+| Frontend | JavaScript, HTML, Chrome Extension (Manifest.json)                     |
+| Modeling | BERT (Multilingual), Sentence Transformers, OpenAI GPT-4o              |
+| Infra | Docker / AWS EC2, Route 53 / GCP Storage, Cloud Run, Artifact Registry |
 
 ---
 
 ## 🧭 시스템 아키텍처
 <img src="docs/images/architecture.png" alt="YourTube Architecture" width="80%" />
 
-- `YouTube API`: 사용자의 구독 채널 및 영상 정보 수집
+- `YouTube Data API`: 사용자의 구독 채널 및 영상 정보 수집
 - `BERT`: 기본 카테고리 분류 (Multi-label classification)
 - `Sentence Transformer`: 사용자 정의 세부 카테고리 분류
 - `GPT-4o`: default 카테고리(22번) 재분류 처리
-- `Flask`: 프론트와의 통신, OAuth 인증, API 제공
-- `크롬 확장`: 영상 요청, 필터링 결과 UI 출력
+- `Flask`: 프론트와의 통신, OAuth 인증, Rest API 제공
+- `크롬 확장(Client)`: 영상 요청, 필터링 결과 UI 출력
 
 ---
 
 ## ⚙️ 서비스 주요 기능
 
-- 구독 영상 최신 목록 불러오기
+- 구독 채널 영상 최신 목록 불러오기
 - 카테고리 및 세부 기준으로 분류
-- 유저 친화적인 UI로 영상 탐색 가능
+- 유저 친화적인 UI로 영상 탐색
 
 ---
 
@@ -87,12 +91,12 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 
 ## 👥 팀 구성 및 역할
 
-| 이름  | 역할  | 담당 영역                                        |
-|:-----:|:------|:---------------------------------------------|
-| [김현호](https://github.com/smthswt) | 파이프라인 | 파이프라인 설계, 프론트(크롬확장프로그램) 설계 및 구현, 백엔드 설계 및 구현 |
-| [임종혁](https://github.com/2000may24th) | 파이프라인 | 기획, 디자인, 프론트 랜딩페이지 설계 및 구현                   |
-| [조윤영](https://github.com/younyoungieo) | 파이프라인 | 기획, OAuth 2.0 인증, 백엔드 설계 및 배포                |
-| [김예진](https://github.com/gina261) | 모델링 | 대분류 모델 및 세부 분류 모델 개발 (BERT)                  |
+| 이름  | 역할        | 담당 영역                                               |
+|:-----:|:----------|:----------------------------------------------------|
+| [김현호](https://github.com/smthswt) | 파이프라인, 리드 | 파이프라인 설계, 확장프로그램(클라이언트) 설계 및 구현, 백엔드 설계 및 구현, 모델 배포 |
+| [임종혁](https://github.com/2000may24th) | 파이프라인     | 기획, 디자인, 랜딩페이지 설계 및 구현                              |
+| [조윤영](https://github.com/younyoungieo) | 파이프라인     | 기획, OAuth 2.0 인증, 백엔드 설계 및 배포                       |
+| [김예진](https://github.com/gina261) | 모델(ML)    | 대분류 모델 및 세부 분류 모델 개발 (BERT)                         |
 
 ---
 
