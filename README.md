@@ -108,4 +108,6 @@ YourTube는 사용자가 구독 중인 채널의 영상들을 **카테고리별�
 ---
 
 ## 📎 부록
+- [기획 발제자료](https://github.com/YBIGTA/YourTube_Service/blob/main/docs/presentations/%EB%B0%9C%EC%A0%9C_%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%84%B8%ED%83%81%EA%B8%B0.pdf)
+- [중간 발표자료](https://github.com/YBIGTA/YourTube_Service/blob/main/docs/presentations/%EC%A4%91%EA%B0%84%EB%B0%9C%ED%91%9C.pdf)
 - [컨퍼런스 최종발표자료](docs/presentations/컨퍼런스_최종발표.pdf)
